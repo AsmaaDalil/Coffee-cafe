@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/image/book-bg.jpg');
+}
+
+header {
+  
+    color:rgb(82, 47, 47);
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.contact-form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    height: 150px;
+}
+
+button[type="submit"] {
+    background-color: rgb(82, 47, 47);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(82, 47, 47);
+}
+
+   
+  .nav1 {
+    /* background-image: url('book-bg.jpg');
+    width: 100% */
+    display: flex;
+  justify-content: flex-end; 
+  font-size: 20px;
+
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+
+  }
+  
+  li {
+     float: left;
+    margin-left: 50px; 
+    margin-right: 25px; 
+
+  }
+  
+   li a {
+    display: block;
+    color: rgb(82, 47, 47);
+    text-align: center;
+    padding: 16px 15px;
+    text-decoration: none;
+    margin-left: 150px;
+    
+  }
+  .icon {
+    font-size: 24px;
+    transition: font-size 0.3s;
+  }
+  
+  .icon:hover {
+    font-size: 36px; /* زيادة حجم الأيقونة إلى 36 بيكسل عند مرور الماوس */
+  }
